@@ -5,7 +5,7 @@ import confetti from 'canvas-confetti'
 const missions = [
   {
     id: "STAN",
-    title: "Gravlax découvre les études",
+    title: "Gravlax étudie au Collège Stanislas",
     tagline: "The Beginning",
     icon: "🏛️",
     locked: false, // First one open
@@ -407,7 +407,7 @@ function finalCelebrate() {
           <p>STATUS: LEGENDARY</p>
           <p class="victory-time">${finalTime}</p>
         </div>
-        <p class="final-message">Joyeux Anniversaire Marc !<br>Toutes les archives sont maintenant décryptées.</p>
+        <p class="final-message">Joyeux Anniversaire Alexandre !<br>Toutes les archives sont maintenant décryptées.</p>
         <button class="submit-btn" onclick="location.reload()">RELOAD MISSION</button>
       </div>
     </div>
