@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agent Birthday: Mission Archive</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Outfit:wght@400;800&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div id="mission-app">
+    <header>
+      <div class="top-secret-stamp">TOP SECRET</div>
+      <h1>Mission: GRAVLAX 24th BIRTHDAY !!</h1>
+      <p>Escape Archive: Agent Gravlax</p>
+      <div id="game-timer" class="game-timer">TIME: 00:00</div>
+    </header>
+
+    <div id="mission-grid">
+      <!-- Missions injected via JS -->
+    </div>
+
+  </div>
+
+  <!-- Modal for Riddles/Content -->
+  <div id="modal-overlay" class="hidden">
+    <div class="modal-card">
+      <button id="close-modal">×</button>
+      <div id="modal-body">
+        <!-- Dynamic Content -->
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
